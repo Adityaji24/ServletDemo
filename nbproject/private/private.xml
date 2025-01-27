@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/utility/ConnectionPool.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/controller/DeleteStudent.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/bean/StudentBean.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/controller/StudentAddController.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/web/index.html</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/web/studentTable.html</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/controller/StudentUpdateController.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/controller/ViewStudent.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/dao/UsersDao.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/controller/DeleteForm.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/bean/UsersBean.java</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/web/addstudent.html</file>
+            <file>file:/C:/Users/HP/OneDrive/Documents/NetBeansProjects/ServletJdbcWithBeansDao/src/java/com/ram/dao/StudentDAO.java</file>
+        </group>
+    </open-files>
+</project-private>

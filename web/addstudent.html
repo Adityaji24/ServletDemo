@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                background-color: aliceblue;
+            }
+            table {
+                background:linear-gradient(135deg,aqua,lightgreen);
+                border-collapse: collapse;
+                width: 50%;
+                margin-top: 50px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            td {
+                padding: 10px;
+                text-align: left;
+            }
+            th {
+                padding: 10px;
+                background-color: #4CAF50;
+                color: white;
+            }
+            input[type="text"], input[type="number"] {
+                width: 100%;
+                padding: 8px;
+                margin: 5px 0;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            input[type="submit"] {
+                background-color:navy;
+                color: white;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100%;
+            }
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Student Form</h2>
+        <form action="StudentAddController">
+            <table align="center">
+                <tr>
+                    <td>SID:</td>
+                    <td><input type="text" name="sid" placeholder="Enter Student ID" required></td>
+                </tr>
+                <tr>
+                    <td>Enroll:</td>
+                    <td><input type="text" name="enroll" placeholder="Enter ENROLLMENT NUMBER" required></td>
+                </tr>
+                
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" placeholder="Enter Name" required></td>
+                </tr>
+                <tr>
+                    <td>Physics:</td>
+                    <td><input type="number" name="p" placeholder="Enter Physics Marks" min="0" max="100" required></td>
+                </tr>
+                <tr>
+                    <td>Chemistry:</td>
+                    <td><input type="number" name="c" placeholder="Enter Chemistry Marks" min="0" max="100" required></td>
+                </tr>
+                <tr>
+                    <td>Mathematics:</td>
+                    <td><input type="number" name="m" placeholder="Enter Mathematics Marks" min="0" max="100" required></td>
+                </tr>
+                <tr>
+                    <td>History:</td>
+                    <td><input type="number" name="h" placeholder="Enter History Marks" min="0" max="100" required></td>
+                </tr>
+                <tr>
+                    <td>English:</td>
+                    <td><input type="number" name="e" placeholder="Enter English Marks" min="0" max="100" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
